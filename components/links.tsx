@@ -16,7 +16,7 @@ export default function Links() {
       </button>
 
       <button className="rounded bg-transparent hover:bg-blue-400/20 p-2">
-        <a href="https://linkedin.com/in/dhruvvbhavsar" target="_blank">
+        <a href="https://linkedin.com/in/dhruvvbhavsarr" target="_blank">
           <svg
             className="size-5 fill-blue-900"
             role="img"
