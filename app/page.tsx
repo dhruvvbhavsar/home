@@ -1,3 +1,4 @@
+import Links from "@/components/links";
 import LocalTime from "@/components/local-time";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -36,6 +37,7 @@ export default function Home() {
           i spend my days making things that excite me, learning about ml and
           reading books.
         </p>
+        <Links />
       </div>
     </div>
   );
