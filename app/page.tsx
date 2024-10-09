@@ -1,6 +1,6 @@
 import About from "@/components/about";
 import Links from "@/components/links";
-import Work from "@/components/work";
+import Life from "@/components/life";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <About />
       <Links />
-      <Work />
+      <Life />
     </>
   );
 }
