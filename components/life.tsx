@@ -19,7 +19,7 @@ const experiences: WorkExperience[] = [
     iconUrl: picostoneIcon.src,
   },
   {
-    place: "KJ Somaiya Institute of Engineering",
+    place: "KJ Somaiya",
     role: "B.Tech AI and Data Science, CGPA: 8.5",
     period: "2020 - 2024",
     iconUrl: somiyaIcon.src,
