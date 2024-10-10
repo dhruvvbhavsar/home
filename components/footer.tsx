@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex gap-3 items-center">
         <div className="size-3 bg-green-400 rounded-full animation-pulse"></div>
         <p className="text-sm">
-            figuring out, one line at a time.
+            figuring out, since birth.
         </p>
       </div>
       <div className="flex items-center justify-between">
