@@ -1,14 +1,15 @@
 import About from "@/components/about";
-import Links from "@/components/links";
 import Life from "@/components/life";
+import Projects from "@/components/projects";
+import Footer from "@/components/footer";
 
-/* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
     <>
       <About />
-      <Links />
       <Life />
+      <Projects />
+      <Footer />
     </>
   );
 }

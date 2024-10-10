@@ -3,7 +3,7 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 
 const getRandomASCII = () => {
-  const specialChars = "!@#$%^&*()_+-=[]{}|;:, .<>?123456789aeiou";
+  const specialChars = "!#$%8080:   ";
   return specialChars[Math.floor(Math.random() * specialChars.length)];
 };
 
@@ -69,7 +69,7 @@ export default function ASCII() {
   return (
     <main
       ref={containerRef}
-      className="font-mono absolute inset-0 h-screen -z-10 bg-white overflow-hidden flex items-center justify-center"
+      className="font-mono fixed inset-0 h-screen -z-10 bg-white overflow-hidden flex items-center justify-center"
     >
       <div
         className="grid text-blue-400/10 break-words select-none font-normal contain-strict"
@@ -84,14 +84,14 @@ export default function ASCII() {
             const key = `${rowIndex}-${colIndex}`;
             const isHighlighted = highlightedIndices.includes(key);
             return (
-              <span
+                <span
                 key={key}
-                className={`flex items-center hover:text-blue-400/50 hover:duration-0 justify-center text-lg transition-[background-color, color] duration-[0.8s] ${
-                  isHighlighted ? "text-blue-400/50 animate-fade" : ""
-                }`}
-              >
+                className={`flex items-center justify-center text-lg transition-all duration-500 ${
+                  isHighlighted ? "text-blue-400/70 animate-fade" : ""
+                } hover:text-blue-400/70`}
+                >
                 {char}
-              </span>
+                </span>
             );
           })
         )}

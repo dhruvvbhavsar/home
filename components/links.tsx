@@ -1,10 +1,10 @@
 export default function Links() {
   return (
-    <div className="flex gap-3 items-center">
+    <div className="flex gap-1 items-center">
       <button className="rounded bg-transparent hover:bg-blue-400/20 p-2">
         <a href="https://github.com/dhruvvbhavsar" target="_blank">
           <svg
-            className="size-5 fill-blue-900"
+            className="size-3 md:size-5 fill-blue-900"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ export default function Links() {
       <button className="rounded bg-transparent hover:bg-blue-400/20 p-2">
         <a href="https://linkedin.com/in/dhruvvbhavsarr" target="_blank">
           <svg
-            className="size-5 fill-blue-900"
+            className="size-3 md:size-5 fill-blue-900"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,13 +32,27 @@ export default function Links() {
       <button className="rounded bg-transparent hover:bg-blue-400/20 p-2">
         <a href="https://x.com/dhruvvbhavsar" target="_blank">
           <svg
-            className="size-5 fill-blue-900"
+            className="size-3 md:size-5 fill-blue-900"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>X</title>
             <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+          </svg>
+        </a>
+      </button>
+
+      <button className="rounded bg-transparent hover:bg-blue-400/20 p-2">
+      <a href="mailto:dhruv.bhavsar75@gmail.com?subject=hi&body=Hello%20Dhruv">
+          <svg
+            role="img"
+            className="size-3 md:size-5 fill-blue-900"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Gmail</title>
+            <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
           </svg>
         </a>
       </button>

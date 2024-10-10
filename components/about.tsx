@@ -15,7 +15,7 @@ export default function About() {
         <p>
           previously, i led the development of products, helped with design and
           managed cloud resources at{" "}
-          <a href="https://picostone.com" target="_blank" className="underline underline-offset-2">
+          <a href="https://picostone.com" target="_blank" className="underline underline-offset-2 hover:bg-black hover:text-white">
             picostone
           </a>{" "}
           as a software developer.
@@ -25,7 +25,7 @@ export default function About() {
           <a
             href="https://kjsit.somaiya.edu.in/en"
             target="_blank"
-            className="underline underline-offset-2"
+            className="underline underline-offset-2 hover:bg-black hover:text-white"
           >
             kj somaiya
           </a>{" "}
