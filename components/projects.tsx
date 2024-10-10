@@ -19,7 +19,7 @@ const projects: Project[] = [
   {
     name: "chroma ai",
     headline: "generate images at the speed of thought",
-    link: "https://chroma-ai.vercel.app",
+    link: "https://chroma-neon.vercel.app",
     tag: "Web",
   },
   {
