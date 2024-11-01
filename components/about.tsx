@@ -7,15 +7,31 @@ export default function About() {
       <div className="mb-8 md:mb-10 font-mono font-semibold">
         <p>dhruv bhavsar</p>
         <p>
-          mumbai, india <LocalTime />
+          mumbai, india 🇮🇳  <LocalTime />
         </p>
       </div>
       <div className="space-y-4">
         <p>i am developer, tinkerer and an ml enthusiast.</p>
         <p>
+          update: I currently lead the development of the mobile app at{" "}
+          <a
+            target="_blank"
+            className="underline underline-offset-2 hover:bg-black hover:text-white"
+            href="https://axonichealth.com/"
+          >
+            axoncare
+          </a>{" "}
+          as a software engineer. we are building a platform to connect patients
+          with doctors and provide them with the best healthcare experience.
+        </p>
+        <p>
           previously, i led the development of products, helped with design and
           managed cloud resources at{" "}
-          <a href="https://picostone.com" target="_blank" className="underline underline-offset-2 hover:bg-black hover:text-white">
+          <a
+            href="https://picostone.com"
+            target="_blank"
+            className="underline underline-offset-2 hover:bg-black hover:text-white"
+          >
             picostone
           </a>{" "}
           as a software developer.

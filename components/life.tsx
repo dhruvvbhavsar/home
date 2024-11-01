@@ -2,6 +2,7 @@ import picostoneIcon from "@/public/pico.jpeg";
 import somiyaIcon from "@/public/somaiya.webp";
 import svmkIcon from "@/public/svkm.png";
 import dalmiaIcon from "@/public/dalmia.png";
+import axonIcon from "@/public/axon.webp";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 type WorkExperience = {
@@ -12,6 +13,12 @@ type WorkExperience = {
 };
 
 const experiences: WorkExperience[] = [
+  {
+    place: "Axonic Health",
+    role: "Software Developer",
+    period: "2024 - now",
+    iconUrl: axonIcon.src,
+  },
   {
     place: "Picostone",
     role: "Software Developer",
@@ -33,7 +40,7 @@ const experiences: WorkExperience[] = [
   {
     place: "N.L. Dalmia High School",
     role: "School, 94%",
-    period: "Childhood - 2018",
+    period: "childhood - 2018",
     iconUrl: dalmiaIcon.src,
   },
 ];
@@ -49,7 +56,11 @@ export default function Life() {
             className="flex items-center hover:bg-blue-400/20 py-4 px-1 rounded-lg"
           >
             <Avatar className="mr-4">
-              <AvatarImage className="object-fill" src={exp.iconUrl} alt={`${exp.place} icon`} />
+              <AvatarImage
+                className="object-fill"
+                src={exp.iconUrl}
+                alt={`${exp.place} icon`}
+              />
               <AvatarFallback>{exp.place[0]}</AvatarFallback>
             </Avatar>
 
