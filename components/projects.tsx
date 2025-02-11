@@ -23,22 +23,10 @@ const projects: Project[] = [
     tag: "Web",
   },
   {
-    name: "shubh sambandh",
-    headline: "a fullstack matrimonial website",
-    link: "https://shubhsambandh.com",
-    tag: "Web",
-  },
-  {
     name: "moviebooking",
     headline: "a movie ticket booking app",
     link: "https://github.com/dhruvvbhavsar/MovieBooking",
     tag: "Android",
-  },
-  {
-    name: "employee management system",
-    headline: "a rust based employee management system",
-    link: "https://github.com/dhruvvbhavsar/employee-management-system",
-    tag: "CLI",
   },
   {
     name: "ye machine",
