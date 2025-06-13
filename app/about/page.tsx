@@ -7,48 +7,8 @@ export default function About() {
       </div>
       
       <div className="space-y-8">
-        <section>
-          <h2 className="font-mono font-semibold mb-4">Picostone • Aug 2023 - Aug 2024</h2>
-          <div className="space-y-4">
-            
-            <p>
-              The first thing was a project management app. Real-time views for everyone. 
-              CEO, PMs, technicians. No more friction in communication. 
-              No more "what's happening on site?" calls.
-            </p>
-            
-            <p>
-              Everyone got trained on it. Even the interns. Especially the interns.
-            </p>
-            
-            <p>
-              The React Native app needed work. Performance was bad. 
-              Bugs everywhere. I fixed them. Then I built new UI from Figma designs. 
-              Clean. Fast. Working.
-            </p>
-            
-            <p>
-              Cloud work came next. Google Cloud and AWS. 
-              EC2 instances, Lambda functions, microservices. 
-              You learn by doing. You break things. You fix them.
-            </p>
-            
-            <p>
-              Then came the migration. AWS to Google Cloud. 
-              Zero downtime. The users never knew. 
-              That's the point.
-            </p>
-            
-            <p>
-              Push notifications were the last thing. Firebase backend. 
-              Implemented across all apps. 
-              Architecture first. Implementation second. 
-              Always.
-            </p>
-          </div>
-        </section>
 
-        <section>
+      <section>
           <h2 className="font-mono font-semibold mb-4">Axonic Health • Oct 2024 - Present</h2>
           <div className="space-y-4">
             <p>
@@ -97,6 +57,48 @@ export default function About() {
             </p>
           </div>
         </section>
+        <section>
+          <h2 className="font-mono font-semibold mb-4">Picostone • Aug 2023 - Aug 2024</h2>
+          <div className="space-y-4">
+            
+            <p>
+              The first thing was a project management app. Real-time views for everyone. 
+              CEO, PMs, technicians. No more friction in communication. 
+              No more "what's happening on site?" calls.
+            </p>
+            
+            <p>
+              Everyone got trained on it. Even the interns. Especially the interns.
+            </p>
+            
+            <p>
+              The React Native app needed work. Performance was bad. 
+              Bugs everywhere. I fixed them. Then I built new UI from Figma designs. 
+              Clean. Fast. Working.
+            </p>
+            
+            <p>
+              Cloud work came next. Google Cloud and AWS. 
+              EC2 instances, Lambda functions, microservices. 
+              You learn by doing. You break things. You fix them.
+            </p>
+            
+            <p>
+              Then came the migration. AWS to Google Cloud. 
+              Zero downtime. The users never knew. 
+              That's the point.
+            </p>
+            
+            <p>
+              Push notifications were the last thing. Firebase backend. 
+              Implemented across all apps. 
+              Architecture first. Implementation second. 
+              Always.
+            </p>
+          </div>
+        </section>
+
+
 
         <section>
           <h2 className="font-mono font-semibold mb-4">Freelance Work</h2>
