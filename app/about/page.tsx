@@ -10,10 +10,6 @@ export default function About() {
         <section>
           <h2 className="font-mono font-semibold mb-4">Picostone • Aug 2023 - Aug 2024</h2>
           <div className="space-y-4">
-            <p>
-              I joined as an intern. But I ended up doing most of the work. 
-              That's how it goes sometimes.
-            </p>
             
             <p>
               The first thing was a project management app. Real-time views for everyone. 
