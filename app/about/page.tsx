@@ -17,7 +17,7 @@ export default function About() {
             
             <p>
               I made reusable components. Created a colors.ts file. 
-              Single source of truth for design shades. 
+              Single source of truth for design tokens. 
               Added Prettier. Code should look good.
             </p>
             

@@ -87,8 +87,8 @@ export default function ASCII() {
                 <span
                 key={key}
                 className={`flex items-center justify-center text-lg transition-all duration-500 ${
-                  isHighlighted ? "text-blue-400/70 animate-fade" : ""
-                } hover:text-blue-400/70`}
+                  isHighlighted ? "text-blue-400/50 animate-fade" : ""
+                } hover:text-blue-400/50`}
                 >
                 {char}
                 </span>
