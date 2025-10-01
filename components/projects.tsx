@@ -11,34 +11,52 @@ type Project = {
 
 const projects: Project[] = [
   {
+    name: "resoto",
+    headline: "restaurant management system",
+    link: "https://play.google.com/store/apps/details?id=com.resotox",
+    tag: "React Native",
+  },
+  {
+    name: "outflik",
+    headline: "instagram meets fashion",
+    link: "https://play.google.com/store/apps/details?id=com.outflick",
+    tag: "React Native",
+  },
+  {
     name: "scout",
     headline: "movie ticket booking app inside an llm",
     link: "https://dub.sh/movie-scout",
-    tag: "Web",
+    tag: "Next.js",
   },
+  // {
+  //   name: "chroma ai",
+  //   headline: "generate images at the speed of thought",
+  //   link: "https://chroma-neon.vercel.app",
+  //   tag: "Web",
+  // },
+  // {
+  //   name: "moviebooking",
+  //   headline: "a movie ticket booking app",
+  //   link: "https://github.com/dhruvvbhavsar/MovieBooking",
+  //   tag: "Android",
+  // },
   {
-    name: "chroma ai",
-    headline: "generate images at the speed of thought",
-    link: "https://chroma-neon.vercel.app",
-    tag: "Web",
-  },
-  {
-    name: "moviebooking",
-    headline: "a movie ticket booking app",
-    link: "https://github.com/dhruvvbhavsar/MovieBooking",
-    tag: "Android",
+    name: "oppenheimer's briefing",
+    headline: "my first ever html page",
+    link: "https://dhruvvbhavsar.github.io/J.oppenhiemer.html",
+    tag: "HTML",
   },
   {
     name: "ye machine",
     headline: "random kanye west quotes",
     link: "https://dhruvvbhavsar.github.io/kanye.html",
-    tag: "Web",
+    tag: "HTML",
   },
   {
     name: "mavoncare",
     headline: "my attempt at making beautiful landing pages",
     link: "https://skincare-landing.vercel.app",
-    tag: "Web",
+    tag: "Next.js",
   },
 ];
 
